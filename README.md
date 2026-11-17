@@ -1,5 +1,6 @@
-#ESTUDO DJANGO
-CRIAÇÃO DE UM PROJETO COM 2 CAMPOS DE INFORMAÇÕES DE UM PERSONAGEM (nome e classe), classe essa sendo uma lista disponibilizada ao usuário com 3 opções (Guerreiro, Mago, Arqueiro).
+# ESTUDO DJANGO
+
+### _CRIAÇÃO DE UM PROJETO COM 2 CAMPOS DE INFORMAÇÕES DE UM PERSONAGEM (nome e classe), classe essa sendo uma lista disponibilizada ao usuário com 3 opções (Guerreiro, Mago, Arqueiro)._
 
 - Criação de um projeto Django
 - Primeiro APP dentro do projeto
