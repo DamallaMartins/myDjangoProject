@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Personagem</title>
+</head>
+<body>
+    <h1>{{ personagem.nome }}</h1>
+    <p>Classe: {{ personagem.classe }}</p>
+    <p>Data de Criação: {{ personagem.data_de_criacao }}</p>
+
+    <button onclick="location.href='{% url 'personagem_editar' personagem.id %}'">Editar Personagem</button>
+    <button onclick="location.href='{% url 'personagem_deletar' personagem.id %}'">Excluir Personagem</button>
+    
+</body>
+</html>
